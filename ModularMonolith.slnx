@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Bootstrapper/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="ModularMonolith.BuildingBlocks/ModularMonolith.BuildingBlocks.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Example/">
+    <Project Path="ModularMonolith.Modules.Examples.Core/ModularMonolith.Modules.Examples.Core.csproj" />
+    <Project Path="ModularMonolith.Modules.Examples.Infrastructure/ModularMonolith.Modules.Examples.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="ModularMonolith.Kernel/ModularMonolith.Kernel.csproj" />
+  </Folder>
+  <Folder Name="/tst/" />
+</Solution>
