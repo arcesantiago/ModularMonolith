@@ -11,6 +11,11 @@ namespace ModularMonolith.Modules.Examples.Core.Mapping
 
             CreateMap<CreateExampleDto, Example>()
                 .ConstructUsing(src => new Example(src.Id));
+
+            CreateMap<Example, GetExampleByIdDto>();
+            CreateMap<Example, GetExamplesPaginatedDto>();
+            CreateMap<Example, GetExampleByPredicateDto>();
+            CreateMap<Example, GetExamplesFromSqlDto>();
         }
     }
 }
